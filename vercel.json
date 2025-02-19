@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "rewrites": [    // 改用 rewrites 而不是 routes
+  "rewrites": [    
     { 
       "source": "/v1/:path*",
       "destination": "/api/proxy"
